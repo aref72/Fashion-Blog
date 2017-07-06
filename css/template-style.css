@@ -181,15 +181,19 @@ footer p, footer a, footer a:link, footer a:active, footer a:visited {
 }
 #article-section p {
 	color: #637693;
+        font-family: tahoma;
 }
 #article-section h1, #article-section h2, #article-section h3, #article-section h4, #article-section h5, #article-section h6 {
 	color: #0b192f;
 	font-weight: 100;
+        font-family:'BKoodakBold';
+            margin: 20px;
 }
 #article-section h1 {
 	font-size: 3em;
 	font-weight: 100;
 	margin-top: 0;
+        font-family: BYekan;
 }
 #article-section h3, #article-section h4, #article-section h5, #article-section h6 {
 	font-weight: 300;
@@ -203,7 +207,7 @@ footer p, footer a, footer a:link, footer a:active, footer a:visited {
 #article-section blockquote {
 	border-left: 2px solid #637693;
 	color: #637693;
-	font-family: georgia;
+	font-family: tahoma;
 	font-size: 1.1em;
 	font-style: italic;
 	font-weight: normal;
@@ -239,6 +243,7 @@ a.continue-reading, form.customform button {
 	-ms-transition: background 0.20s linear 0s;
 	-moz-transition: background 0.20s linear 0s;
 	-webkit-transition: background 0.20s linear 0s;
+        font-family: tahoma;
 }
 form.customform button {
 	margin-top: 0;
@@ -246,6 +251,7 @@ form.customform button {
 a.continue-reading:hover, form.customform button:hover {
 	background: none repeat scroll 0 0 #0b192f;
 	color: #fff;
+        font-family: tahoma;
 }
 a.latest-posts {
 	border-bottom: 1px solid #e0e0e0;
